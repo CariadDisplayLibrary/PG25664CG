@@ -91,8 +91,8 @@ class PG25664CG : public DisplayCore {
         void setPixel(int x, int y, color_t c);
         void fillScreen(color_t c);
 
-        void setRotation(int r) {}
-        void invertDisplay(boolean i) {}
+        void setRotation(int __attribute__((unused)) r) {}
+        void invertDisplay(boolean __attribute__((unused)) i) {}
 
         void startBuffer();
         void endBuffer();
