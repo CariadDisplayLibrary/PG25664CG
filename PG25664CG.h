@@ -92,7 +92,7 @@ class PG25664CG : public DisplayCore {
         void fillScreen(color_t c);
 
         void setRotation(int __attribute__((unused)) r) {}
-        void invertDisplay(boolean __attribute__((unused)) i) {}
+        void invertDisplay(bool __attribute__((unused)) i) {}
 
         void startBuffer();
         void endBuffer();
