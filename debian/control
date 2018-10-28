@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core
 Provides: PG25664CG.h
-Description: PG25664CG OLED Driver for DisplayCore
+Description: PG25664CG OLED
  The PG25664CG is a 256x64 OLED display based on the SSD1322
  display chip. It provides 4-bit grayscale operation with
  nibble packing of the data.  Consequently it requires an
