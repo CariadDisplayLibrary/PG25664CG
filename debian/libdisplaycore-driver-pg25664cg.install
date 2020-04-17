@@ -1,3 +1,4 @@
-PG25664CG.cpp libraries/DisplayCore/PG25664CG
-PG25664CG.h libraries/DisplayCore/PG25664CG
-examples/ libraries/DisplayCore/PG25664CG
+examples libraries/DisplayCore/PG25664CG
+library.json libraries/DisplayCore/PG25664CG
+library.properties libraries/DisplayCore/PG25664CG
+src libraries/DisplayCore/PG25664CG
