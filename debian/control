@@ -1,16 +1,17 @@
-Source: libdisplaycore-driver-pg25664cg
+Source: libcariad-driver-pg25664cg
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-pg25664cg
+Package: libcariad-driver-pg25664cg
+Replaces: libdisplaycore-driver-pg25664cg
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: OLED
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: PG25664CG.h
 Description: PG25664CG
  The PG25664CG is a 256x64 OLED display based on the SSD1322

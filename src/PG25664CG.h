@@ -1,7 +1,7 @@
 #ifndef _PG25664CG_H
 #define _PG25664CG_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 
 /*
 D/C     A0
@@ -19,7 +19,7 @@ CS      A3
 RES     A4
 */
 
-class PG25664CG : public DisplayCore {
+class PG25664CG : public Cariad {
     private:
 
         uint8_t _buffer[8192];
