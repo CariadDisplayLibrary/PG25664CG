@@ -1,1 +1,26 @@
-{"name":"PG25664CG","keywords":"display, cariad, tft, lcd, glcd, oled, graphics, font","description":"PG25664CG for Cariad","homepage":"http:\/\/cariad.org\/wiki\/index.php?title=Acorn","repository":{"type":"git","url":"https:\/\/github.com\/Cariad\/PG25664CG.git"},"dependencies":[{"name":"Cariad","version":"2.1.0"}],"export":{"exclude":"debian"},"authors":{"name":"Majenko Technologies","url":"http:\/\/majenko.co.uk"},"version":"2.0.8","frameworks":"arduino","platforms":"microchippic32"}
+{
+    "name": "PG25664CG",
+    "keywords": "display, cariad, tft, lcd, glcd, oled, graphics, font",
+    "description": "PG25664CG for Cariad",
+    "homepage": "https:\/\/github.com\/CariadDisplayLibrary\/PG25664CG",
+    "repository": {
+        "type": "git",
+        "url": "https:\/\/github.com\/CariadDisplayLibrary\/PG25664CG"
+    },
+    "dependencies": [
+        {
+            "name": "Cariad",
+            "version": "2.1.0"
+        }
+    ],
+    "export": {
+        "exclude": "debian"
+    },
+    "authors": {
+        "name": "Majenko Technologies",
+        "url": "http:\/\/majenko.co.uk"
+    },
+    "version": "2.1.1",
+    "frameworks": "arduino",
+    "platforms": "microchippic32"
+}
